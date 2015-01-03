@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+version = '1.0'
+mainClassName = 'co.kaush.rxjava.cli.HelloWorld'
+
+repositories {
+     mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'co.kaush.rxjava.cli.HelloWorld'
+    }
+}
+
+dependencies {
+  compile 'io.reactivex:rxjava:1.0.4'
+}
