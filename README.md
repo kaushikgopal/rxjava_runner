@@ -8,11 +8,12 @@ The objective is to use this as a playground of sorts when trying to understand 
   * `brew install gradle` is the simplest way to go if you use homebrew.
 
 2. the [example](https://github.com/ReactiveX/RxJava/issues/1176) uses java 8 so make sure your path variable `JAVA_HOME` points to a valid jre/jdk 8 installation.
-  * if you have [cask](http://caskroom.io/) installed, `cask install java` is again the super easy to go.
+  * if you have [cask](http://caskroom.io/) installed, `cask install java` is a super easy way to go.
 
 3. if you run `gradle run`, you should see an output like follows:
 
-`
+<!-- code -->
+
     gradle run
     :compileJava
     :processResources UP-TO-DATE
@@ -32,4 +33,3 @@ The objective is to use this as a playground of sorts when trying to understand 
     BUILD SUCCESSFUL
 
     Total time: 1.397 secs
-`
